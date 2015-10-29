@@ -1,0 +1,122 @@
+body {
+	font-family: ¸¼Àº °íµñ, ÈÞ¸Õ¸ÅÁ÷Ã¼;
+	font-size: 9pt;
+}
+
+#joinh {
+	font-family: ¸¼Àº °íµñ, ÈÞ¸Õ¸ÅÁ÷Ã¼;
+	margin-left: 100px;
+	width: 770px;
+	height: 35px;
+	font-size: 22px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #E8E8E8;
+	
+}
+
+#wrapper {
+	border: 5px solid white;
+	background-color: white;
+	width: px;
+	margin: 0px auto;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+#joinForm {
+	display: table;
+	margin: 10px auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+#joinForm p {
+	display: table-row;
+	padding: 5px;
+}
+
+#joinForm label {
+	display: table-cell;
+	padding-left: 40px;
+}
+
+#joinForm #cellStyle {
+	display: table-cell;
+	padding-left: 3px;
+}
+
+#joinForm #userid {
+	width: 120px;
+}
+
+#joinForm #username {
+	width: 120px;
+}
+
+#joinForm #userpwd, #joinForm #userpwd2 {
+	width: 120px;
+}
+
+#joinForm #useraddr1, #joinForm #useraddr2 {
+	width: 250px;
+	display: block;
+}
+
+#joinForm input[type="text"], #joinForm input[type="password"],
+	#joinForm input[type="radio"], #joinForm select {
+	border: 1px solid, #FF3399;
+	padding: 3px;
+	background-color: #efefef;
+	margin: 5px;
+	width: 60px;
+}
+
+#joinForm #useremail {
+	width: 200px;
+}
+
+#joinForm input[type="button"] {
+	border: 2px solid;
+	padding: 3px 10px;
+	color: white;
+	border: 1px solid #303030;
+	background: #3f4040;
+	background: -moz-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3f4040),
+		color-stop(100%, #303131));
+	background: -webkit-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -o-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -ms-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: linear-gradient(top, #3f4040 0%, #303131 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4040',
+		endColorstr='#303131', GradientType=0);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#joinForm input[type="submit"] {
+	border: 2px solid;
+	padding: 3px 10px;
+	color: white;
+	border: 1px solid #303030;
+	background: #3f4040;
+	background: -moz-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3f4040),
+		color-stop(100%, #303131));
+	background: -webkit-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -o-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -ms-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: linear-gradient(top, #3f4040 0%, #303131 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4040',
+		endColorstr='#303131', GradientType=0);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#joinForm .btnSubmit {
+	display: block;
+	text-align: center;
+	position: relative;
+	left: 250px;
+	top: 2px;
+	border-bottom-style: none;
+}

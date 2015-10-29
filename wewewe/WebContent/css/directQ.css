@@ -1,0 +1,179 @@
+@CHARSET "EUC-KR";
+#wrapper{
+   border:5px solid #ededed;
+   width: 980px;
+   margin: 0px auto;
+   padding: 15px;
+   background-color: white;
+   height: auto;
+}
+.directQ{
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   min-height: 1000px;
+   position: relative;
+}
+.Q-top {
+   position: relative;
+   width: 40%;
+   padding: 1em 30px;
+   top: 20.5%;
+   left: 20px;
+}
+.Q-top h1{
+   padding-left:10px;
+   font-size: 2.4em;
+   font-weight: 600;
+   margin: 0;
+   color: #000000;
+
+}
+.Q-bottom{
+   width:800px;
+   height:800px auto;
+}
+.Q-btn {
+   margin: 5% 0 0 67%;
+   float: inherit;
+   
+}
+
+.Q-btn input[type=submit] {
+   color: #403F45;
+   margin-right:20px;
+   padding: 7px 13px;
+   font-size: 14px;
+   cursor: pointer;
+   font-weight: 600;
+   border: none;
+   background: #ffeb00;
+   outline: none;
+   height: 39px;
+}
+
+.Q-btn input[type=submit]:hover {
+   background: #403F45;
+   color: #fff;
+   transition: 0.5s all ease;
+   -webkit-transition: 0.5s all ease;
+   -moz-transition: 0.5s all ease;
+   -o-transition: 0.5s all ease;
+   -ms-transition: 0.5s all ease;
+}
+.Q-btn input[type=reset] {
+   color: #403F45;
+   padding: 7px 13px;
+   font-size: 14px;
+   cursor: pointer;
+   font-weight: 600;
+   border: none;
+   background: #ffeb00;
+   outline: none;
+   height: 39px;
+}
+
+.left{
+   margin-left: 70px;
+   float: left;
+   border-collapse: collapse;
+   
+}
+.rigth{
+   float:right;
+    margin-left: 230px;
+   text-align: -webkit-center;
+}
+.selectList{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.Q-btn input[type=reset]:hover {
+   background: #403F45;
+   color: #fff;
+   transition: 0.5s all ease;
+   -webkit-transition: 0.5s all ease;
+   -moz-transition: 0.5s all ease;
+   -o-transition: 0.5s all ease;
+   -ms-transition: 0.5s all ease;
+}
+
+.fileAdd input[type=submit] {
+   color: #403F45;
+   padding: 7px 13px;
+   font-size: 14px;
+   cursor: pointer;
+   font-weight: 600;
+   border: none;
+   background: #ffeb00;
+   outline: none;
+   
+}
+
+.fileAdd input[type=submit]:hover {
+   background: #403F45;
+   color: #fff;
+   transition: 0.5s all ease;
+   -webkit-transition: 0.5s all ease;
+   -moz-transition: 0.5s all ease;
+   -o-transition: 0.5s all ease;
+   -ms-transition: 0.5s all ease;
+}
+.qContent {
+   margin-left: 70px;
+}
+.qContent textarea{
+
+  content: "문의사항을 입력해주세요";
+}
+select {
+   padding: 9px 0px 9px 10px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   -o-appearance: none;
+   -ms-appearance: none;
+   color: #9E9E9E;
+   background: url(../images/arrow.png) no-repeat 95.5% 58% #fff;
+   border-radius:10px;
+   width:300px;
+   height:50px;
+   font-size: 17px;
+   font-weight: 400;
+   cursor: pointer;
+}
+.user_dr{
+   text-align: center;
+   font-size: 18px;
+    color: #141823;
+    margin-bottom: 20px;
+}
+
+.dr-header{
+   border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+.dr-header-no{
+   width: 100px;
+    display: inline-block;
+}
+.dr-header-sub{
+   width: 350px;
+    display: inline-block;
+}
+.dr-header-date{
+   width: 350px;
+    display: inline-block;
+}
+
+a{
+   text-decoration: none;
+   color:black;
+}
+a:HOVER{
+   text-decoration: underline;
+   color:red;
+}

@@ -1,0 +1,105 @@
+ #mask {  
+   position:absolute;
+   z-index:9000;  
+   background-color:#000;  
+   display:none;  
+   left:0;
+   top:0;
+ } 
+  
+/*
+ ÆË¾÷À¸·Î ¶ß´Â À©µµ¿ì css  
+*/ 
+ .window{
+   display: none;
+   background-color:#F5F5F5;
+   border: solid; 1px;
+   border-color: #E8E8E8;
+   position:absolute;  
+   left:50%;
+   top:100px;
+   margin-left: -400px;
+   width:350px;
+   height:250px;
+   z-index:10000;   
+ }
+  #loginp{
+ 	font-family: ¸¼Àº °íµñ, ÈÞ¸Õ¸ÅÁ÷Ã¼;
+ 	border-bottom-width:300px;
+ 	font-size: 20px;
+ 	padding-top: 10px;
+ 	padding-bottom:10px;
+ 	padding-left:40px;
+ 	border-bottom: solid;
+ 	border-bottom-color: #E8E8E8;
+ }
+ #idtext{
+ 	margin-left:40px;
+ 	margin-top: 20px;
+ 	width: 250px;
+ 	height: 30px;
+ 	margin-bottom: 20px;
+ 	border-radius: 5px;
+ }
+ #pwdtext{
+ 	margin-left:40px;
+ 	border-radius: 5px;
+ 	width: 250px;
+ 	height: 30px;
+ }
+
+ #loginb{
+ 	border: 2px solid;
+ 	width:70px;
+ 	height: 30px;
+ 	margin-left: 40px;
+	padding: 3px 10px;
+	margin-top: 20px;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #303030;
+	background: #3f4040;
+	background: -moz-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3f4040),
+		color-stop(100%, #303131));
+	background: -webkit-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -o-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -ms-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: linear-gradient(top, #3f4040 0%, #303131 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4040',
+		endColorstr='#303131', GradientType=0);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+ }
+ #loginc{
+ border: 2px solid;
+ 	width:70px;
+ 	height: 30px;
+ 	margin-left: 20px;
+ 	margin-top: 20px;
+	padding: 3px 10px;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #303030;
+	background: #3f4040;
+	background: -moz-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3f4040),
+		color-stop(100%, #303131));
+	background: -webkit-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -o-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: -ms-linear-gradient(top, #3f4040 0%, #303131 100%);
+	background: linear-gradient(top, #3f4040 0%, #303131 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4040',
+		endColorstr='#303131', GradientType=0);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+ }
+ #idpwd{
+ 
+  width: 200px;
+  margin-top:10px;
+  margin-left: 40px;
+ }
+ #idpwd a{
+  text-decoration: none;
+		color:#000000;
+ }
+ 
