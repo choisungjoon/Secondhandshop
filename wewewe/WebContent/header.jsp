@@ -27,12 +27,7 @@
     $('#dc_mega-menu-orange').dcMegaMenu({rowItems:'4',speed:'fast',effect:'fade'});
   });
 </script>
-
-
-
-
 <body>
-
   <div id="mask"></div>	
   <div class="wrap">
 	<div class="header">
@@ -51,7 +46,7 @@
 								<input id="loginb" type="submit" value="로그인">
 								<input id="loginc" class="close" type="button" value="취소">
 								<div id= idpwd>
-								<a href="join.jsp">회원가입 </a>|<a href="idpwdsearch.jsp"> 아이디/비밀번호찾기</a>
+								<a href="join.jsp">회원가입 </a>|<a href="#"> 아이디/비밀번호찾기</a>
 								</div>
 						</div>
 								
@@ -92,63 +87,63 @@
       <li><a href="products.jsp">생활/이미용가전</a></li>       
     </ul>
   </li>
-  <li><a href="products.html">디지털  전자기기</a>
+  <li><a href="products1.jsp">디지털  전자기기</a>
     <ul>
-      <li><a href="products.html">카메라/액세서리</a></li>
-      <li><a href="products.html">음향기기</a></li>
-      <li><a href="products.html">게임기/타이틀</a></li>
-      <li><a href="#">휴대폰/스마트폰</a></li>
-      <li><a href="#">태블릿/액세서리</a></li>
+      <li><a href="products1.jsp">카메라/액세서리</a></li>
+      <li><a href="products1.jsp">음향기기</a></li>
+      <li><a href="products1.jsp">게임기/타이틀</a></li>
+      <li><a href="products1.jsp">휴대폰/스마트폰</a></li>
+      <li><a href="products1.jsp">태블릿/액세서리</a></li>
     </ul>
   </li>
-  <li><a href="faq.html">컴퓨터</a>
+  <li><a href="products2.jsp">컴퓨터</a>
     <ul>
-      <li><a href="products.html">노트북/데스크탑</a></li>
-      <li><a href="products.html">모니터/프린트/잉크</a></li>
-      <li><a href="products.html">컴퓨터부품/주변기기</a></li>
-      <li><a href="#">저장장치/메모리</a></li>
+      <li><a href="products2.jsp">노트북/데스크탑</a></li>
+      <li><a href="products2.jsp">모니터/프린트/잉크</a></li>
+      <li><a href="products2.jsp">컴퓨터부품/주변기기</a></li>
+      <li><a href="products2.jsp">저장장치/메모리</a></li>
     </ul>
   </li>
-  <li><a href="faq.html">패션  잡화</a>
+  <li><a href="products3.jsp">패션  잡화</a>
     <ul>
-      <li><a href="products.html">패션/의류 </a>
+      <li><a href="products3.jsp">패션/의류 </a>
         <ul>
-          <li><a href="preview-2.html">여성의류</a></li>
-          <li><a href="preview-3.html">남성의류</a></li>
-          <li><a href="#">언더웨어/잠옷/파자마</a></li>
+          <li><a href="products3.jsp">여성의류</a></li>
+          <li><a href="products3.jsp">남성의류</a></li>
+          <li><a href="products3.jsp">언더웨어/잠옷/파자마</a></li>
         </ul>
       </li>
-      <li><a href="products.html">뷰티</a>
+      <li><a href="products3.jsp">뷰티</a>
         <ul>
-          <li><a href="preview.html">화장품/향수</a></li>
-          <li><a href="preview-5.html">바디/헤어/미용</a></li>
+          <li><a href="products3.jsp">화장품/향수</a></li>
+          <li><a href="products3.jsp">바디/헤어/미용</a></li>
         </ul>
       </li>
-      <li><a href="products.html">잡화</a>
+      <li><a href="products3.jsp">잡화</a>
         <ul>
-          <li><a href="preview.html">구두/여성화/남성화</a></li>
-          <li><a href="preview-5.html">가방/패션잡화</a></li>
-          <li><a href="preview-5.html">시계/쥬얼리/액세서리</a></li>
+          <li><a href="products3.jsp">구두/여성화/남성화</a></li>
+          <li><a href="products3.jsp">가방/패션잡화</a></li>
+          <li><a href="products3.jsp">시계/쥬얼리/액세서리</a></li>
         </ul>
       </li>
     </ul>
   </li>
-  <li><a href="about.html">가구  생활</a>
+  <li><a href="products4.jsp">가구  생활</a>
    <ul>
-      <li><a href="products.html">가구/침구/수납</a>
+      <li><a href="products4.jsp">가구/침구/수납</a>
         <ul>
-          <li><a href="preview-2.html">가구/인테리어</a></li>
-          <li><a href="preview-3.html">침구/커튼/조명</a></li>
-          <li><a href="#">생활/욕실/수납용품</a></li>
-          <li><a href="#">주방용품</a></li>
+          <li><a href="products4.jsp">가구/인테리어</a></li>
+          <li><a href="products4.jsp">침구/커튼/조명</a></li>
+          <li><a href="products4.jsp">생활/욕실/수납용품</a></li>
+          <li><a href="products4.jsp">주방용품</a></li>
         </ul>
       </li>
-      <li><a href="products.html">생활/취미</a>
+      <li><a href="products4.jsp">생활/취미</a>
         <ul>
-          <li><a href="preview.html">건강/의료용품</a></li>
-          <li><a href="preview-5.html">반려동물용품</a></li>
-          <li><a href="preview-5.html">악기/취미/키덜트</a></li>
-          <li><a href="preview-5.html">디자인/문구/사무용품</a></li>
+          <li><a href="products4.jsp">건강/의료용품</a></li>
+          <li><a href="products4.jsp">반려동물용품</a></li>
+          <li><a href="products4.jsp">악기/취미/키덜트</a></li>
+          <li><a href="products4.jsp">디자인/문구/사무용품</a></li>
         </ul>
       </li>
     </ul>

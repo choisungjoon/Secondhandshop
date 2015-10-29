@@ -64,7 +64,7 @@ select {
 	-o-appearance: none;
 	-ms-appearance: none;
 	color: #9E9E9E;
-	background: url(../images/arrow.png) no-repeat 95.5% 58% #fff;
+	background: url(../img/arrow.png) no-repeat 95.5% 58% #fff;
 	outline: none;
 	border-radius:10px;
 	width: 95%;
