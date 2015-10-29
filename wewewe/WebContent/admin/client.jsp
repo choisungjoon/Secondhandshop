@@ -30,15 +30,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </script>
 <style type="text/css">
 
-ul.product_list{
+ul.client_list{
 	padding:0em 0 0.5em 0;
 	margin:0.5em 0;
 }
-.product_list li{
+.client_list li{
 	display: block;
 	margin:5px 0;
 }
-.product_list li a{
+.client_list li a{
 	color: black;
 	text-transform:uppercase;
 	font-size:0.85em;
@@ -48,7 +48,7 @@ ul.product_list{
 	font-weight:400;
 	display: block;
 }
-.product_list li a:hover{
+.client_list li a:hover{
 	background:#000;
 	color:#fff;
 	padding:5px 2em;
@@ -59,6 +59,33 @@ ul.product_list{
 	-ms-transition:0.5s all;
 }
 
+#client
+	{
+		width: 770px;
+		height: 20px;
+	}
+#client tr{
+	
+}
+#client th{
+	padding-top: 3px; 
+padding-bottom: 3px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	border-top-width:2px;
+	font-weight :bold;
+	background: #DCDCDC;
+}
+#client td{
+padding-top: 3px; 
+padding-bottom: 3px;
+border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	text-align: center;
+}
+
 
 </style>
 </head>
@@ -66,9 +93,9 @@ ul.product_list{
   <jsp:include page="header_ad.jsp"></jsp:include>
   <div class="wrap">
       	<div class="products" style=" width: 150px; height: 450px; float: left">
-				<div class="product_listy">
+				<div class="client_listy">
 					<h2>회원 관리</h2>
-					<ul class="product_list" id="pmenu">
+					<ul class="client_list" id="pmenu">
 						<li><a href="">회원조회</a></li>
 						<li><a href="">결제내역</a></li>
 						<li><a href="">상담관리</a></li>
@@ -77,28 +104,59 @@ ul.product_list{
 
 			</div>
 			
-			<div style="height: 500px;">
-				회원 목록
-				<table style="width: 500px; text-align: center"  >
-					<tr bgcolor=gray>
-						<th>회원번호</th>
-						<th>이름</th>
-						<th>아이디</th>
-					</tr>
-					
-					<tr>
-						<td>01</td>
-						<td>홍길동</td>
-						<td>hong</td>
-					</tr>
-					
-					<tr>
-						<td>02</td>
-						<td>심청이</td>
-						<td>shim</td>
-					</tr>
-					
-				</table>
+			<div style="height: 1000px;">
+		<p style="font-size: 2em">회원 목록</p>
+		<hr>
+		<table width="600" cellpadding="3" cellspacing="1" border="1" id="client">
+    		<tr bgcolor="#DAE5E8">
+    			<th>회원번호</th>
+    			<th>이름</th>
+    			<th>아이디</th>
+    			<th>성별</th>
+    			<th>이메일</th>
+    			<th>수정</th>
+    		</tr>
+    		
+    		<tr align="center">
+    			<td>01</td>
+    			<td>홍길동</td>
+    			<td>hong</td>
+    			<td>남자</td>
+    			<td>hong123@naver.com</td>
+    			<td>
+    				<input type="button" value="수정">
+    				<input type="button" value="삭제">
+    			</td>
+    		</tr>
+    		
+    		<tr align="center">
+    			<td>01</td>
+    			<td>홍길동</td>
+    			<td>hong</td>
+    			<td>남자</td>
+    			<td>hong123@naver.com</td>
+    			<td>
+    				<input type="button" value="수정">
+    				<input type="button" value="삭제">
+    			</td>
+    		</tr>
+    		
+    		<tr align="center">
+    			<td>01</td>
+    			<td>홍길동</td>
+    			<td>hong</td>
+    			<td>남자</td>
+    			<td>hong123@naver.com</td>
+    			<td>
+    				<input type="button" value="수정">
+    				<input type="button" value="삭제">
+    			</td>
+    		</tr>
+    		
+    		
+    		
+    		
+    	</table>
 			
 			</div>
 					
