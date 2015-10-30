@@ -57,7 +57,7 @@
 
 				<li><a href="join.jsp">회원가입</a></li>
 				<li><a href="cart.jsp">장바구니</a></li>
-				<li><a href="directQ.jsp">1:1문의</a></li>
+				<li><a href="qList.jsp">1:1문의</a></li>
 				<li><a href="noticelist.jsp">공지사항</a></li>
 				<li><a href="selling.jsp">상품/경매등록</a></li>
 				<div class="clear"></div>

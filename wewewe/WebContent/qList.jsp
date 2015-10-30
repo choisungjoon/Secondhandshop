@@ -5,6 +5,7 @@
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>SmartEditor</title>
@@ -96,8 +97,7 @@ $(function(){
 });
 </script>
 
-
-<!-- List펼치기 -->
+<!-- 리스트펼치기 -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -122,24 +122,15 @@ $(function(){
 	</style>
 </head>
 <body>
-   <jsp:include page="header.jsp"></jsp:include>
+ <jsp:include page="header.jsp"></jsp:include>
    <div class="wrap">
    <div class="selling" id="wrapper">
       <div class="container">
          <div class="selling-top">
-            <h1>판매하기</h1>
+            <h1>1:1문의하기</h1>
             <hr width=880 size=3>
             <div class="selling-bottom">
             <form action="" id="btn" name="select_machine">
-               <div class="sell-one">
-                  <div class="sell-left">
-                     <p>판매방법</p>
-                  </div>
-                  <div class="sell-right">
-                     <input type="radio" value=jic name=radio checked>직거래 
-                     <input type="radio" value=gyung name=radio>경매<br>
-                  </div>
-               </div>
                <div class="sell-one">
                   <div class="sell-left">
                      <p>카테고리</p>
@@ -148,42 +139,26 @@ $(function(){
                      <div class="select1" style="width:300px;float:left;">
                      <select name="qList" id=""
                            onChange="showSub(this.options[this.selectedIndex].value);">
-                        <option value=1>가전제품</option>
-                        <option value=2>디지털 전자기기</option>
-                        <option value=3>컴퓨터</option>
-                        <option value=4>패션잡화</option>
-                        <option value=5>가구생활</option>
+                        <option value=1>구매하기</option>
+                        <option value=2>판매히기</option>
                      </select>
                      </div>
                      <div class="select2" style="width:300px;float:left;">
                      <select name="SUB1" style="display:;" id="sel">
-                        <option name="" value=" ">TV/프로젝터</option>
-                        <option name="" value=" ">냉장고/세탁기/청소기</option>
-                        <option name="" value=" ">주방가전</option>
-                        <option name="" value=" ">냉난방/청정/가습가전</option>
-                        <option name="" value=" ">생활/이미용가전</option>
+                        <option name="" value=" ">문의분류</option>
+                           <option name="" value=" ">판매과정</option>
+                           <option name="" value=" ">배송</option>
+                           <option name="" value=" ">입금</option>
+                           <option name="" value=" ">계정</option>
+                           <option name="" value=" ">기타</option>
                      </select>
                      <select name="SUB2" style="display:none;" id="sel">
-                        <option name="" value=" ">카메라/액세서리</option>
-                        <option name="" value=" ">음향기기</option>
-                        <option name="" value=" ">게임기/타이틀</option>
-                        <option name="" value=" ">휴대폰/스마트폰</option>
-                        <option name="" value=" ">태블릿/액세서리</option>
-                     </select>
-                     <select name="SUB3" style="display:none;" id="sel">
-                        <option name="" value=" ">노트북/데스크탑</option>
-                        <option name="" value=" ">모니터/프린트/잉크</option>
-                        <option name="" value=" ">컴퓨터부품/주변기기</option>
-                        <option name="" value=" ">저장장치/메모리</option>
-                     </select>
-                     <select name="SUB4" style="display:none;" id="sel">
-                        <option name="" value=" ">패션/의류</option>
-                        <option name="" value=" ">뷰티</option>
-                        <option name="" value=" ">잡화</option>
-                     </select>
-                     <select name="SUB5" style="display:none;" id="sel">
-                        <option name="" value=" ">가구/침구/수납</option>
-                        <option name="" value=" ">생활/취미</option>
+                       <option name="" value=" ">문의분류</option>
+                       <option name="" value=" ">배송</option>
+                           <option name="" value=" ">결제</option>
+                           <option name="" value=" ">환불</option>
+                           <option name="" value=" ">A/S</option>
+                           <option name="" value=" ">기타</option>
                      </select>
                      </div>
                   </div>
@@ -221,39 +196,39 @@ $(function(){
       </div>
       <br>
       <div class="selling-top">
-            <h1>a sale Catalogue</h1>
+            <h1>내가 등록한 문의</h1>
             <hr width=880 size=3> </div>
 <div id="tog">
 	<ul id="ulid">
-		<li id="liid">판매1</li>
+		<li id="liid">Q1</li>
 		<div>
-			노트북
+				질문합니다
 				
 		</div>
-		<li id="liid">판매2</li>
+		<li id="liid">Q2</li>
 			<div>
-			TV<a href="http://webstutorial.com/wordpress-multiple-category-search/content-management-system-cms/wordpress-cms"></a>
+			배송관련 문의해요.<a href="http://webstutorial.com/wordpress-multiple-category-search/content-management-system-cms/wordpress-cms"></a>
 			</div>
 		
-		<li id="liid">판매3</li>
+		<li id="liid">Q3</li>
 			<div>
-			아이폰<a href="http://webstutorial.com/youtube-video-scraping-fetch-youtube-video-through-rss/programming/php"></a>
+			상품관련 문의해요.<a href="http://webstutorial.com/youtube-video-scraping-fetch-youtube-video-through-rss/programming/php"></a>
 			</div>
 		
-		<li id="liid">판매4</li>
+		<li id="liid">Q4</li>
 			<div>
-			세탁기<a href="http://webstutorial.com/ten-wordpress-useful-functions/content-management-system-cms/wordpress-cms"></a>
+			교환관련 문의해요.<a href="http://webstutorial.com/ten-wordpress-useful-functions/content-management-system-cms/wordpress-cms"></a>
 			</div>
 		
-		<li id="liid">판매5</li>
+		<li id="liid">Q5</li>
 			<div>
-			냉장고<a href="http://webstutorial.com/good-php-developer-answer-php-test/programming/php"></a>
+			판매관련 문의해요.<a href="http://webstutorial.com/good-php-developer-answer-php-test/programming/php"></a>
 			</div>
 		
 	</ul>
 </div>
-       
-      <jsp:include page="footer.jsp"></jsp:include>
+
+<jsp:include page="footer.jsp"></jsp:include>
 
 </body>
 </html>
