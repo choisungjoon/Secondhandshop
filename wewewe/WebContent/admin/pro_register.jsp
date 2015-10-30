@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>SmartEditor</title>
-<link href="SE2/css/sell.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../SE2/css/sell.css" rel="stylesheet" type="text/css" media="all" />
 <!-- SmartEditor를 사용하기 위해서 다음 js파일을 추가 (경로 확인) -->
 <script type="text/javascript" src="<%=ctx %>/SE2/js/HuskyEZCreator.js" charset="utf-8"></script>
 <!-- jQuery를 사용하기위해 jQuery라이브러리 추가 -->
@@ -35,8 +35,7 @@ $(function(){
           }, 
           fOnAppLoad : function(){
               //기존 저장된 내용의 text 내용을 에디터상에 뿌려주고자 할때 사용
-              oEditors.getById["ir1"].exec("PASTE_HTML",
-            		  [""]);
+              oEditors.getById["ir1"].exec("PASTE_HTML", [""]);
           },
           fCreator: "createSEditor2"
       });
@@ -98,12 +97,12 @@ $(function(){
 </script>
 </head>
 <body>
-   <jsp:include page="header.jsp"></jsp:include>
+   <jsp:include page="header_ad.jsp"></jsp:include>
    <div class="wrap">
    <div class="selling" id="wrapper">
       <div class="container">
          <div class="selling-top">
-            <h1>판매신청</h1>
+            <h1>판매등록</h1>
             <hr width=880 size=3>
             <div class="selling-bottom">
             <form action="" id="btn" name="select_machine">
@@ -112,7 +111,7 @@ $(function(){
                      <p>판매방법</p>
                   </div>
                   <div class="sell-right">
-                     <input type="radio" value=online name=radio checked>온라인 
+                     <input type="radio" value=online name=radio checked>온라인
                      <input type="radio" value=gyung name=radio>경매<br>
                   </div>
                </div>
@@ -174,12 +173,12 @@ $(function(){
                   </div>
                   <div class="clearfix"></div>
                </div>
-                 <div class="sell-one">
+               <div class="sell-one">
                   <div class="sell-left">
                      <p>구입시기</p>
                   </div>
                   <div class="sell-right">
-                     <input type="text" size=50 name="sellsub" placeholder="기억이 나지 않으시면 대략적인 시기를 적어주세요. ex)2010년">
+                     <input type="text" size=50 name="sellsub">
                   </div>
                   <div class="clearfix"></div>
                </div>
@@ -188,7 +187,7 @@ $(function(){
                      <p>상품가격</p>
                   </div>
                   <div class="sell-right">
-                     <input type="text" size=50 name="sellsub" placeholder="ex) 00만원, 000,000원">
+                     <input type="text" size=50 name="sellsub">
                   </div>
                   <div class="clearfix"></div>
                </div>
@@ -198,7 +197,7 @@ $(function(){
                   </div>
                   <div class="sell-right">
                   <form id="smart">
-                     <textarea rows="10" cols="40" id="ir1" name="content" style="width:700px; height:350px;"></textarea>
+                     <textarea rows="10" cols="40" id="ir1" name="content" style="width:700px; height:350px; "></textarea>
                   </div>
                   </form>
                   <div class="clearfix"></div>
@@ -213,7 +212,7 @@ $(function(){
             <br>
          </div>
       </div>
-      <jsp:include page="footer.jsp"></jsp:include>
+      <jsp:include page="../footer.jsp"></jsp:include>
 
 </body>
 </html>
