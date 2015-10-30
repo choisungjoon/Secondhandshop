@@ -122,7 +122,6 @@
 					 <h2>[중고] </h2>
 					 <p>삼성 믹서기 </p>
 					 <p><span class="price">415.54원</span></p>
-				    
 				</div>
 			</div>
 			<div class="content_bottom">
