@@ -35,7 +35,8 @@ $(function(){
           }, 
           fOnAppLoad : function(){
               //기존 저장된 내용의 text 내용을 에디터상에 뿌려주고자 할때 사용
-              oEditors.getById["ir1"].exec("PASTE_HTML", ["기존 DB에 저장된 내용을 에디터에 적용할 문구"]);
+              oEditors.getById["ir1"].exec("PASTE_HTML",
+            		  [""]);
           },
           fCreator: "createSEditor2"
       });
@@ -102,7 +103,7 @@ $(function(){
    <div class="selling" id="wrapper">
       <div class="container">
          <div class="selling-top">
-            <h1>판매하기</h1>
+            <h1>판매신청</h1>
             <hr width=880 size=3>
             <div class="selling-bottom">
             <form action="" id="btn" name="select_machine">
@@ -111,7 +112,7 @@ $(function(){
                      <p>판매방법</p>
                   </div>
                   <div class="sell-right">
-                     <input type="radio" value=jic name=radio checked>직거래 
+                     <input type="radio" value=online name=radio checked>온라인 
                      <input type="radio" value=gyung name=radio>경매<br>
                   </div>
                </div>
@@ -173,19 +174,37 @@ $(function(){
                   </div>
                   <div class="clearfix"></div>
                </div>
+                 <div class="sell-one">
+                  <div class="sell-left">
+                     <p>구입시기</p>
+                  </div>
+                  <div class="sell-right">
+                     <input type="text" size=50 name="sellsub" placeholder="기억이 나지 않으시면 대략적인 시기를 적어주세요. ex)2010년">
+                  </div>
+                  <div class="clearfix"></div>
+               </div>
+                 <div class="sell-one">
+                  <div class="sell-left">
+                     <p>상품가격</p>
+                  </div>
+                  <div class="sell-right">
+                     <input type="text" size=50 name="sellsub" placeholder="ex) 00만원, 000,000원">
+                  </div>
+                  <div class="clearfix"></div>
+               </div>
                <div class="sell-one">
                   <div class="sell-left">
                      <p>내용</p>
                   </div>
                   <div class="sell-right">
                   <form id="smart">
-                     <textarea rows="10" cols="40" id="ir1" name="content" style="width:700px; height:350px; "></textarea>
+                     <textarea rows="10" cols="40" id="ir1" name="content" style="width:700px; height:350px;"></textarea>
                   </div>
                   </form>
                   <div class="clearfix"></div>
                <div class="sell-btn">
                   <input type="submit" value="등록하기"> 
-                  <input type="button" value="취소하기">
+                  <input type="button" value="취소하기" onclick="history.back()">
                </div>
                </div>
             </div>
