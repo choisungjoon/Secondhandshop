@@ -4,11 +4,11 @@
     String ctx = request.getContextPath();    //콘텍스트명 얻어오기.
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>SmartEditor</title>
-<link href="SE2/css/sell.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../SE2/css/sell.css" rel="stylesheet" type="text/css" media="all" />
 <!-- SmartEditor를 사용하기 위해서 다음 js파일을 추가 (경로 확인) -->
 <script type="text/javascript" src="<%=ctx %>/SE2/js/HuskyEZCreator.js" charset="utf-8"></script>
 <!-- jQuery를 사용하기위해 jQuery라이브러리 추가 -->
@@ -35,8 +35,7 @@ $(function(){
           }, 
           fOnAppLoad : function(){
               //기존 저장된 내용의 text 내용을 에디터상에 뿌려주고자 할때 사용
-              oEditors.getById["ir1"].exec("PASTE_HTML",
-            		  [""]);
+              oEditors.getById["ir1"].exec("PASTE_HTML", [""]);
           },
           fCreator: "createSEditor2"
       });
@@ -96,39 +95,14 @@ $(function(){
    });
 });
 </script>
-
-
-<!-- List펼치기 -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$("li").click(function(){
-			$(this).toggleClass("active");
-			$(this).next("div").stop('true','true').slideToggle("slow");
-		});
-	});
-	</script>
-	
-	<style>
-		body{font-family:Tahoma;}
-		#ulid{width:700px;}
-		#liid:hover{background:#FFFFE0}
-		#liid{list-style-type:none; cursor:pointer; -moz-border-radius:0 10px 0 10px; border:1px solid #d8d8d8; margin:2px; padding:5px 5px 5px 5px;}
-		#ulid div{color: #330000; cursor: auto; display: none; font-size: 13px; padding: 5px 0 5px 20px; text-decoration: none; }
-		#ulid div a{color:#000000; font-weight:bold;}
-		#liid div:hover{text-decoration:none !important;}
-		#liid:before {content: "+"; padding:10px 10px 10px 0; color:blue; font-weight:bold;}
-		#liid.active:before {content: "-"; padding:10px 10px 10px 0; color:blue; font-weight:bold;}
-		#tog{width:750px; margin:0 auto;}
-	</style>
 </head>
 <body>
-   <jsp:include page="header.jsp"></jsp:include>
+   <jsp:include page="header_ad.jsp"></jsp:include>
    <div class="wrap">
    <div class="selling" id="wrapper">
       <div class="container">
          <div class="selling-top">
-            <h1>판매신청</h1>
+            <h1>판매등록</h1>
             <hr width=880 size=3>
             <div class="selling-bottom">
             <form action="" id="btn" name="select_machine">
@@ -137,7 +111,7 @@ $(function(){
                      <p>판매방법</p>
                   </div>
                   <div class="sell-right">
-                     <input type="radio" value=online name=radio checked>온라인 
+                     <input type="radio" value=online name=radio checked>온라인
                      <input type="radio" value=gyung name=radio>경매<br>
                   </div>
                </div>
@@ -199,12 +173,12 @@ $(function(){
                   </div>
                   <div class="clearfix"></div>
                </div>
-                 <div class="sell-one">
+               <div class="sell-one">
                   <div class="sell-left">
                      <p>구입시기</p>
                   </div>
                   <div class="sell-right">
-                     <input type="text" size=50 name="sellsub" placeholder="기억이 나지 않으시면 대략적인 시기를 적어주세요. ex)2010년">
+                     <input type="text" size=50 name="sellsub">
                   </div>
                   <div class="clearfix"></div>
                </div>
@@ -213,7 +187,8 @@ $(function(){
                      <p>상품가격</p>
                   </div>
                   <div class="sell-right">
-                     <input type="text" size=50 name="sellsub" placeholder="ex) 00만원, 000,000원">
+                     <input type="text" size=50 name="sellsub">
+
                   </div>
                   <div class="clearfix"></div>
                </div>
@@ -223,7 +198,7 @@ $(function(){
                   </div>
                   <div class="sell-right">
                   <form id="smart">
-                     <textarea rows="10" cols="40" id="ir1" name="content" style="width:700px; height:350px;"></textarea>
+                     <textarea rows="10" cols="40" id="ir1" name="content" style="width:700px; height:350px; "></textarea>
                   </div>
                   </form>
                   <div class="clearfix"></div>
@@ -238,41 +213,7 @@ $(function(){
             <br>
          </div>
       </div>
-      <br>
-      <div class="selling-top">
-            <h1>a sale Catalogue</h1>
-            <hr width=880 size=3> </div>
-<div id="tog">
-	<ul id="ulid">
-		<li id="liid">판매1</li>
-		<div>
-			노트북
-				
-		</div>
-		<li id="liid">판매2</li>
-			<div>
-			TV<a href="http://webstutorial.com/wordpress-multiple-category-search/content-management-system-cms/wordpress-cms"></a>
-			</div>
-		
-		<li id="liid">판매3</li>
-			<div>
-			아이폰<a href="http://webstutorial.com/youtube-video-scraping-fetch-youtube-video-through-rss/programming/php"></a>
-			</div>
-		
-		<li id="liid">판매4</li>
-			<div>
-			세탁기<a href="http://webstutorial.com/ten-wordpress-useful-functions/content-management-system-cms/wordpress-cms"></a>
-			</div>
-		
-		<li id="liid">판매5</li>
-			<div>
-			냉장고<a href="http://webstutorial.com/good-php-developer-answer-php-test/programming/php"></a>
-			</div>
-		
-	</ul>
-</div>
-       
-      <jsp:include page="footer.jsp"></jsp:include>
+      <jsp:include page="../footer.jsp"></jsp:include>
 
 </body>
 </html>

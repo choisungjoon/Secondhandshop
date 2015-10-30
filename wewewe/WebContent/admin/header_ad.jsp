@@ -43,7 +43,7 @@
 			<div class="menu_sub">
 			<ul>
 				<li><a href="client.jsp">회원관리</a></li>
-				<li><a href="product_ad">상품관리</a></li>
+				<li><a href="product_ad.jsp">상품관리</a></li>
 				<li><a href="#">경매관리</a></li>
 				<li><a href="#">1:1문의관리</a></li>
 				<div class="clear"></div>
