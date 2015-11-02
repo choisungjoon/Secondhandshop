@@ -375,7 +375,7 @@ border-style: solid;
 
 			
     </div>
-    <jsp:include page="../footer.jsp"></jsp:include>
+<jsp:include page="../main/footer.jsp"></jsp:include>
    
 </body>
 </html>

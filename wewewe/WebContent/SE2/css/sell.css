@@ -3,6 +3,15 @@
 	margin: 0px auto;
 	padding: 15px;
 }
+#q_wrap{
+   margin: 0px auto;
+   padding: 15px;
+   height: auto;
+   margin-right: -130;
+   width: 1000px;
+   margin-left: 30px;
+   
+}
 .selling {
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -114,17 +123,20 @@ select {
 	width: 850px;
 }
 .sell-btn input[type=submit] {
-	color: #403F45;
 	padding: 7px 13px;
 	font-size: 14px;
 	cursor: pointer;
 	font-weight: 600;
 	border: none;
-	background: #ffeb00;
 	outline: none;
 	size: 20px;
 	margin-top: 15px;
 	height: 39px;
+	color:#FFF;
+	background: -webkit-gradient(linear,left top,left bottom,from(#70389C),to(#602D8D));
+	background: -moz-linear-gradient(top,#70389C,#602D8D);
+	background: -o-linear-gradient(top,#70389C,#602D8D);
+	background: -ms-linear-gradient(top,#70389C,#602D8D);
 }
 
 .sell-btn input[type=submit]:hover {
@@ -137,16 +149,19 @@ select {
 	-ms-transition: 0.5s all ease;
 }
 .sell-btn input[type=button] {
-	color: #403F45;
 	padding: 7px 13px;
 	font-size: 14px;
 	cursor: pointer;
 	font-weight: 600;
 	border: none;
-	background: #ffeb00;
 	outline: none;
 	margin-top: 15px;
 	height: 39px;
+	color:#FFF;
+	background: -webkit-gradient(linear,left top,left bottom,from(#70389C),to(#602D8D));
+	background: -moz-linear-gradient(top,#70389C,#602D8D);
+	background: -o-linear-gradient(top,#70389C,#602D8D);
+	background: -ms-linear-gradient(top,#70389C,#602D8D);
 }
 
 .sell-btn input[type=button]:hover {

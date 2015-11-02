@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- startDocumnet():문서가 시작 -->
+<beans> <!-- startElement() --> 
+ <bean id="main" class="com.main.model.MainModel"/>
+ <!-- 회원관리 -->
+ <bean id="join" class="com.member.model.MemberJoinModel"/>
+ <!-- 헤더메뉴 -->
+ <bean id="noticelist" class="com.menu.model.NoticeListModel"/>
+ <bean id="selling" class="com.menu.model.AuctionSellingModel"/>
+ <!-- 카테고리 -->
+ <bean id="products" class="com.category.model.ProductModel"/>
+ <bean id="products1" class="com.category.model.Product1Model"/>
+ <bean id="products2" class="com.category.model.Product2Model"/>
+ <bean id="products3" class="com.category.model.Product3Model"/>
+ <bean id="products4" class="com.category.model.Product4Model"/>
+ <bean id="Auctionlist" class="com.category.model.AuctionListModel"/>
+ <bean id="directQ" class="com.menu.model.DirectQModel"/>
+</beans>
+<!-- endDocument():문서종료 -->

@@ -8,12 +8,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>SmartEditor</title>
-<link href="../SE2/css/sell.css" rel="stylesheet" type="text/css" media="all" />
+<link href="SE2/css/sell.css" rel="stylesheet" type="text/css" media="all" />
 <!-- SmartEditor를 사용하기 위해서 다음 js파일을 추가 (경로 확인) -->
-<script type="text/javascript" src="<%=ctx %>/SE2/js/HuskyEZCreator.js" charset="utf-8"></script>
+<script type="text/javascript" src="SE2/js/HuskyEZCreator.js" charset="utf-8"></script>
 <!-- jQuery를 사용하기위해 jQuery라이브러리 추가 -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/flexslider.css" rel="stylesheet" type="text/css"
+   media="all" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript">
 var oEditors = [];
 $(function(){
@@ -97,12 +100,17 @@ $(function(){
 </script>
 </head>
 <body>
-   <jsp:include page="header_ad.jsp"></jsp:include>
    <div class="wrap">
+   <div class=content_bottom style="margin-top: 0px;">     
+         <div class="heading">
+            <h3>판매하기</h3>
+         </div>
+         <div class="clear"></div>
+		</div>
    <div class="selling" id="wrapper">
       <div class="container">
          <div class="selling-top">
-            <h1>판매등록</h1>
+            
             <hr width=880 size=3>
             <div class="selling-bottom">
             <form action="" id="btn" name="select_machine">
@@ -111,7 +119,7 @@ $(function(){
                      <p>판매방법</p>
                   </div>
                   <div class="sell-right">
-                     <input type="radio" value=online name=radio checked>온라인
+                     <input type="radio" value=jic name=radio checked>직거래 
                      <input type="radio" value=gyung name=radio>경매<br>
                   </div>
                </div>
@@ -175,25 +183,6 @@ $(function(){
                </div>
                <div class="sell-one">
                   <div class="sell-left">
-                     <p>구입시기</p>
-                  </div>
-                  <div class="sell-right">
-                     <input type="text" size=50 name="sellsub">
-                  </div>
-                  <div class="clearfix"></div>
-               </div>
-                 <div class="sell-one">
-                  <div class="sell-left">
-                     <p>상품가격</p>
-                  </div>
-                  <div class="sell-right">
-                     <input type="text" size=50 name="sellsub">
-
-                  </div>
-                  <div class="clearfix"></div>
-               </div>
-               <div class="sell-one">
-                  <div class="sell-left">
                      <p>내용</p>
                   </div>
                   <div class="sell-right">
@@ -204,7 +193,7 @@ $(function(){
                   <div class="clearfix"></div>
                <div class="sell-btn">
                   <input type="submit" value="등록하기"> 
-                  <input type="button" value="취소하기" onclick="history.back()">
+                  <input type="button" value="취소하기">
                </div>
                </div>
             </div>
@@ -213,7 +202,6 @@ $(function(){
             <br>
          </div>
       </div>
-<jsp:include page="../main/footer.jsp"></jsp:include>
 
 </body>
 </html>
