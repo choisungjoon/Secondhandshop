@@ -107,33 +107,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p>
 						<span>현재가:</span><span class="price">21000원</span>
 					</p>
-
 						<div id="aut_cr">
 						<a href="javascript:openWin('popAuction.jsp','500','500')">입찰하기</a>
 						</div>
-					
-					
 						<div id="aut_cr">
 						<a href="#">상세보기</a>
 						</div>
-					
 				</div>
 				<div class="grid_1_of_4 images_1_of_4">
-					<a href="preview-4.html"><img src="images/new-pic2.jpg" alt="" /></a>
+					<a href="preview-3.html"><img src="images/new-pic1.jpg" alt="" /></a>
 					<div class="discount">
 						<span class="percentage">경매</span>
 					</div>
-					<h2>Lorem Ipsum is simply</h2>
+					<h2>삼성 중고 티비</h2>
 					<p>
-						<span class="strike">$667.22</span><span class="price">$621.75</span>
+						<span>현재가:</span><span class="price">21000원</span>
 					</p>
-					<div class="button">
-						<span><img src="images/cart.jpg" alt="" /><a
-							href="preview-4.html" class="cart-button">Add to Cart</a></span>
-					</div>
-					<div class="button">
-						<span><a href="preview-4.html" class="details">Details</a></span>
-					</div>
+						<div id="aut_cr">
+						<a href="javascript:openWin('popAuction.jsp','500','500')">입찰하기</a>
+						</div>
+						<div id="aut_cr">
+						<a href="#">상세보기</a>
+						</div>
 				</div>
 				<div class="grid_1_of_4 images_1_of_4">
 					<a href="preview-2.html"><img src="images/feature-pic2.jpg"
